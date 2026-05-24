@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OU B.Tech Supply Exam Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎓 OU B.Tech Supply Exam Helper</h1>
+        <p>Pass your supplementary exams with confidence - Osmania University Affiliated Colleges</p>
+    </header>
+
+    <main>
+        <section class="semester-select">
+            <h2>Select Your Semester</h2>
+            <div class="semester-grid">
+                <button class="sem-btn" data-sem="1">1st Sem</button>
+                <button class="sem-btn" data-sem="2">2nd Sem</button>
+                <button class="sem-btn" data-sem="3">3rd Sem</button>
+                <button class="sem-btn" data-sem="4">4th Sem</button>
+                <button class="sem-btn" data-sem="5">5th Sem</button>
+                <button class="sem-btn" data-sem="6">6th Sem</button>
+                <button class="sem-btn" data-sem="7">7th Sem</button>
+                <button class="sem-btn" data-sem="8">8th Sem</button>
+            </div>
+        </section>
+
+        <section class="branch-select hidden">
+            <h2>Select Your Branch</h2>
+            <div class="branch-grid">
+                <button class="branch-btn" data-branch="CSE">CSE</button>
+                <button class="branch-btn" data-branch="ECE">ECE</button>
+                <button class="branch-btn" data-branch="EEE">EEE</button>
+                <button class="branch-btn" data-branch="MECH">MECH</button>
+                <button class="branch-btn" data-branch="CIVIL">CIVIL</button>
+                <button class="branch-btn" data-branch="IT">IT</button>
+                <button class="branch-btn" data-branch="AIDS">AI&DS</button>
+            </div>
+            <button class="back-btn" id="backToSem">← Back to Semesters</button>
+        </section>
+
+        <section class="subjects-list hidden">
+            <h2 id="subjectTitle">Subjects</h2>
+            <div id="subjectsContainer"></div>
+            <button class="back-btn" id="backToBranch">← Back to Branch</button>
+        </section>
+
+        <section class="subject-detail hidden">
+            <div id="subjectContent"></div>
+            <button class="back-btn" id="backToSubjects">← Back to Subjects</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>📚 Study Smart, Pass Easy | Made for OU Engineering Students</p>
+        <p class="disclaimer">Disclaimer: This is a study aid. Always refer to official syllabus and textbooks.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

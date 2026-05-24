@@ -364,6 +364,14 @@ de_aids: {
     tips: ["K-map practice daily", "Flip-flop conversions", "Counter design problems", "Timing diagrams"],
     resources: "Textbook: Morris Mano Digital Design. YouTube: Neso Academy, Gate Smashers"
 },
+se_aids: {
+    name: "Software Engineering", code: "SPC304AD", sem: 3, branch: "AIDS",
+    passTip: "SDLC models and requirements engineering are key. Practice drawing UML diagrams. Understand testing techniques.",
+    important: ["SDLC Models - Waterfall, Agile, Spiral", "Requirements Engineering", "UML Diagrams - Use Case, Class, Sequence", "Software Design", "Testing - Unit, Integration, System", "Software Metrics"],
+    units: ["Software Process Models", "Requirements Analysis", "Software Design", "Testing & Quality", "Project Management"],
+    tips: ["Compare SDLC models", "Draw UML diagrams neatly", "Black box vs White box testing", "COCOMO model basics"],
+    resources: "Textbook: Pressman, Sommerville. YouTube: Gate Smashers, Knowledge Gate"
+},
 
 // SEMESTER 4 - AI&DS
 ml_aids: {

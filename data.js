@@ -321,19 +321,19 @@ web_tech: {
     resources: "Textbook: Web Technologies by Uttam Roy. YouTube: Traversy Media, Telusko"
 },
 
-// AI&DS Branch Subjects
+// AI&DS Branch Subjects (OU/Methodist College Syllabus)
 
 // SEMESTER 3 - AI&DS
 python_prog: {
-    name: "Python Programming", code: "AD301PC", sem: 3, branch: "AIDS",
-    passTip: "Practice coding daily. Focus on data structures, file handling, and libraries like NumPy. Write programs by hand for exams.",
-    important: ["Data Types & Control Flow", "Functions & Modules", "File Handling", "Exception Handling", "NumPy basics", "List comprehensions"],
-    units: ["Python Basics & Data Types", "Control Structures & Functions", "Strings, Lists, Tuples, Dictionaries", "File Handling & Exceptions", "NumPy & Pandas intro"],
-    tips: ["Practice list/dict operations", "File handling programs are must", "Understand OOP in Python", "NumPy array operations"],
+    name: "Python Programming", code: "SPC301AD", sem: 3, branch: "AIDS",
+    passTip: "Practice coding daily. Focus on data structures, file handling, and OOP. Write programs by hand for exams.",
+    important: ["Data Types & Control Flow", "Functions & Modules", "File Handling", "Exception Handling", "OOP in Python", "NumPy & Pandas basics"],
+    units: ["Python Basics & Data Types", "Control Structures & Functions", "Strings, Lists, Tuples, Dictionaries", "File Handling & Exceptions", "OOP & Libraries"],
+    tips: ["Practice list/dict operations", "File handling programs are must", "Understand classes and objects", "NumPy array operations"],
     resources: "Textbook: Learning Python by Mark Lutz. YouTube: Corey Schafer, Telusko"
 },
 prob_stats: {
-    name: "Probability & Statistics", code: "AD302BS", sem: 3, branch: "AIDS",
+    name: "Probability & Statistics", code: "SBS301AD", sem: 3, branch: "AIDS",
     passTip: "Master probability distributions and hypothesis testing. Practice numerical problems. Understand correlation and regression.",
     important: ["Probability Distributions - Binomial, Poisson, Normal", "Hypothesis Testing", "Correlation & Regression", "Sampling Theory", "Bayes Theorem", "Central Limit Theorem"],
     units: ["Probability Theory", "Random Variables", "Probability Distributions", "Sampling & Estimation", "Hypothesis Testing"],
@@ -341,7 +341,7 @@ prob_stats: {
     resources: "Textbook: Probability & Statistics by Walpole. YouTube: StatQuest, Khan Academy"
 },
 dsa_aids: {
-    name: "Data Structures & Algorithms", code: "AD303PC", sem: 3, branch: "AIDS",
+    name: "Data Structures", code: "SPC302AD", sem: 3, branch: "AIDS",
     passTip: "Focus on trees, graphs, and sorting. Practice time complexity analysis. Write algorithms step by step.",
     important: ["Arrays & Linked Lists", "Stacks & Queues", "Trees - BST, AVL", "Graph Traversals", "Sorting Algorithms", "Hashing"],
     units: ["Linear Data Structures", "Stacks & Queues", "Trees", "Graphs", "Sorting & Searching"],
@@ -349,17 +349,25 @@ dsa_aids: {
     resources: "Textbook: Data Structures by Sahni. YouTube: Abdul Bari, Take U Forward"
 },
 dbms_aids: {
-    name: "Database Management Systems", code: "AD304PC", sem: 3, branch: "AIDS",
+    name: "Database Management Systems", code: "SPC303AD", sem: 3, branch: "AIDS",
     passTip: "ER diagrams and normalization are key. Practice SQL queries extensively. Understand transactions and ACID properties.",
     important: ["ER Model & Diagrams", "Relational Model", "SQL - DDL, DML, Joins", "Normalization 1NF-BCNF", "Transactions & ACID", "Indexing"],
     units: ["Database Concepts", "ER Model", "Relational Model & SQL", "Normalization", "Transaction Management"],
     tips: ["Draw ER diagrams neatly", "SQL joins practice", "Normalization step by step", "Concurrency control basics"],
     resources: "Textbook: Korth, Navathe. YouTube: Gate Smashers, Jenny's Lectures"
 },
+de_aids: {
+    name: "Digital Electronics", code: "SES301AD", sem: 3, branch: "AIDS",
+    passTip: "Boolean algebra and K-maps are foundation. Practice combinational and sequential circuits. Understand flip-flops well.",
+    important: ["Boolean Algebra", "K-Map Simplification", "Combinational Circuits", "Flip-flops - SR, JK, D, T", "Counters & Registers", "ADC/DAC"],
+    units: ["Number Systems & Codes", "Boolean Algebra", "Combinational Logic", "Sequential Circuits", "Memory & Programmable Logic"],
+    tips: ["K-map practice daily", "Flip-flop conversions", "Counter design problems", "Timing diagrams"],
+    resources: "Textbook: Morris Mano Digital Design. YouTube: Neso Academy, Gate Smashers"
+},
 
 // SEMESTER 4 - AI&DS
 ml_aids: {
-    name: "Machine Learning", code: "AD401PC", sem: 4, branch: "AIDS",
+    name: "Machine Learning", code: "SPC401AD", sem: 4, branch: "AIDS",
     passTip: "Understand algorithms conceptually first. Practice decision tree and regression problems. Know when to use which algorithm.",
     important: ["Linear & Logistic Regression", "Decision Trees & Random Forest", "SVM", "K-Means Clustering", "KNN", "Naive Bayes"],
     units: ["Introduction to ML", "Supervised Learning", "Unsupervised Learning", "Model Evaluation", "Ensemble Methods"],
@@ -367,23 +375,23 @@ ml_aids: {
     resources: "Textbook: Tom Mitchell, Hands-on ML by Geron. YouTube: Andrew Ng, StatQuest"
 },
 ai_aids: {
-    name: "Artificial Intelligence", code: "AD402PC", sem: 4, branch: "AIDS",
+    name: "Artificial Intelligence", code: "SPC402AD", sem: 4, branch: "AIDS",
     passTip: "Focus on search algorithms and knowledge representation. Practice A* and minimax problems. Understand logic and inference.",
     important: ["Search Algorithms - BFS, DFS, A*", "Heuristic Search", "Game Playing - Minimax, Alpha-Beta", "Knowledge Representation", "Propositional & Predicate Logic", "Expert Systems"],
     units: ["Introduction to AI", "Problem Solving & Search", "Knowledge Representation", "Logic & Inference", "Expert Systems"],
     tips: ["A* algorithm practice", "Minimax tree problems", "Predicate logic conversions", "Heuristic function design"],
     resources: "Textbook: Russell & Norvig AIMA. YouTube: Gate Smashers, NPTEL AI"
 },
-data_mining: {
-    name: "Data Mining", code: "AD403PC", sem: 4, branch: "AIDS",
-    passTip: "Association rules and clustering are important. Practice Apriori algorithm. Understand classification techniques.",
-    important: ["Data Preprocessing", "Association Rules - Apriori", "Classification - Decision Tree, Naive Bayes", "Clustering - K-Means, Hierarchical", "Pattern Evaluation", "Data Warehousing basics"],
-    units: ["Data Mining Concepts", "Data Preprocessing", "Association Rules", "Classification", "Clustering"],
-    tips: ["Apriori algorithm steps", "Support & confidence calculations", "K-means iterations practice", "Decision tree construction"],
-    resources: "Textbook: Han & Kamber. YouTube: Gate Smashers, NPTEL"
+os_aids: {
+    name: "Operating Systems", code: "SPC403AD", sem: 4, branch: "AIDS",
+    passTip: "Process scheduling and memory management are key. Practice numerical problems on scheduling algorithms. Understand deadlock.",
+    important: ["CPU Scheduling Algorithms", "Process Synchronization", "Deadlock - conditions & handling", "Memory Management - Paging", "Page Replacement Algorithms", "File Systems"],
+    units: ["Process Management", "CPU Scheduling", "Synchronization & Deadlocks", "Memory Management", "File Systems"],
+    tips: ["Practice Gantt charts for scheduling", "Banker's algorithm numericals", "Page replacement - FIFO, LRU, Optimal", "Understand semaphores"],
+    resources: "Textbook: Galvin, Silberschatz. YouTube: Gate Smashers, Neso Academy"
 },
 daa_aids: {
-    name: "Design & Analysis of Algorithms", code: "AD404PC", sem: 4, branch: "AIDS",
+    name: "Design & Analysis of Algorithms", code: "SPC404AD", sem: 4, branch: "AIDS",
     passTip: "Master divide & conquer, greedy, and dynamic programming. Practice recurrence relations. Time complexity is must.",
     important: ["Divide & Conquer", "Greedy Algorithms", "Dynamic Programming", "Backtracking", "Graph Algorithms", "NP-Completeness"],
     units: ["Algorithm Analysis", "Divide & Conquer", "Greedy Method", "Dynamic Programming", "Backtracking"],
@@ -392,55 +400,79 @@ daa_aids: {
 },
 
 // SEMESTER 5 - AI&DS
+atcd_aids: {
+    name: "Automata Theory & Compiler Design", code: "SPC501AD", sem: 5, branch: "AIDS",
+    passTip: "FA, PDA and CFG are important. Practice DFA minimization. Understand parsing techniques - LL and LR.",
+    important: ["Finite Automata - DFA, NFA", "Regular Expressions", "Context Free Grammar", "Pushdown Automata", "LL & LR Parsing", "Turing Machines"],
+    units: ["Finite Automata & RE", "CFG & PDA", "Turing Machines", "Lexical Analysis", "Syntax Analysis & Parsing"],
+    tips: ["DFA minimization practice", "RE to NFA to DFA conversion", "First & Follow sets", "LR parsing table construction"],
+    resources: "Textbook: Hopcroft Ullman, Aho Ullman Dragon Book. YouTube: Neso Academy, Gate Smashers"
+},
+nlp_aids: {
+    name: "Natural Language Processing", code: "SPC502AD", sem: 5, branch: "AIDS",
+    passTip: "Text preprocessing and word embeddings are key. Understand language models. Practice POS tagging and NER.",
+    important: ["Text Preprocessing - Tokenization, Stemming", "Word Embeddings - Word2Vec, GloVe", "POS Tagging", "Named Entity Recognition", "N-gram Language Models", "Sentiment Analysis"],
+    units: ["NLP Introduction & Text Processing", "Word Level Analysis", "Syntactic Analysis", "Semantics & Pragmatics", "Discourse Analysis & Applications"],
+    tips: ["Preprocessing pipeline", "TF-IDF calculations", "Word2Vec concepts", "CFG for NLP"],
+    resources: "Textbook: Jurafsky & Martin, NLTK Book. YouTube: Stanford NLP, NPTEL"
+},
+daa2_aids: {
+    name: "Design & Analysis of Algorithms", code: "SPC503AD", sem: 5, branch: "AIDS",
+    passTip: "Advanced algorithms - tries, string matching, NP problems. Practice pattern matching algorithms.",
+    important: ["Tries - Standard, Compressed, Suffix", "String Matching - Brute Force, Boyer-Moore", "Huffman Coding", "NP-Complete Problems", "Approximation Algorithms", "All-Pairs Shortest Path"],
+    units: ["Advanced Data Structures", "String Algorithms", "Graph Algorithms", "NP-Completeness", "Approximation"],
+    tips: ["Trie construction", "Pattern matching algorithms", "Floyd-Warshall algorithm", "NP-Hard vs NP-Complete"],
+    resources: "Textbook: Cormen CLRS, Goodrich. YouTube: Abdul Bari, MIT OCW"
+},
+mv_aids: {
+    name: "Machine Vision", code: "SPE511AD", sem: 5, branch: "AIDS",
+    passTip: "Image processing fundamentals and transformations are key. Practice edge detection and segmentation.",
+    important: ["Image Enhancement & Restoration", "Fourier Transform", "Edge Detection", "Image Segmentation", "Feature Extraction - SIFT, HOG", "Object Recognition"],
+    units: ["Digital Image Fundamentals", "Image Enhancement", "Segmentation & Clustering", "Transformations", "Object Recognition & CBIR"],
+    tips: ["Convolution operations", "Histogram equalization", "K-means for segmentation", "Hough transform"],
+    resources: "Textbook: Gonzalez Digital Image Processing, Forsyth & Ponce. YouTube: NPTEL, First Principles of CV"
+},
+
+// SEMESTER 6 - AI&DS
 dl_aids: {
-    name: "Deep Learning", code: "AD501PC", sem: 5, branch: "AIDS",
+    name: "Deep Learning", code: "SPC601AD", sem: 6, branch: "AIDS",
     passTip: "Understand neural network architectures. Focus on CNN and RNN. Practice backpropagation calculations.",
     important: ["Perceptron & MLP", "Backpropagation", "CNN - Convolution, Pooling", "RNN & LSTM", "Activation Functions", "Regularization - Dropout, Batch Norm"],
     units: ["Neural Network Basics", "Deep Neural Networks", "CNN", "RNN & LSTM", "Optimization Techniques"],
     tips: ["Backpropagation derivation", "CNN layer calculations", "Vanishing gradient problem", "LSTM gates understanding"],
     resources: "Textbook: Deep Learning by Goodfellow. YouTube: 3Blue1Brown, Andrew Ng DL"
 },
-nlp_aids: {
-    name: "Natural Language Processing", code: "AD502PC", sem: 5, branch: "AIDS",
-    passTip: "Text preprocessing and word embeddings are key. Understand language models. Practice POS tagging and NER.",
-    important: ["Text Preprocessing", "Tokenization & Stemming", "Word Embeddings - Word2Vec", "POS Tagging", "Named Entity Recognition", "Sentiment Analysis"],
-    units: ["NLP Basics", "Text Preprocessing", "Language Models", "Sequence Labeling", "Applications"],
-    tips: ["Preprocessing pipeline", "TF-IDF calculations", "Word2Vec concepts", "RNN for NLP"],
-    resources: "Textbook: Jurafsky & Martin. YouTube: Stanford NLP, NPTEL"
-},
 big_data: {
-    name: "Big Data Analytics", code: "AD503PC", sem: 5, branch: "AIDS",
+    name: "Big Data Analytics", code: "SPC602AD", sem: 6, branch: "AIDS",
     passTip: "Hadoop ecosystem and MapReduce are important. Understand distributed computing concepts. Practice Spark basics.",
-    important: ["Hadoop Architecture - HDFS, YARN", "MapReduce Programming", "Hive & Pig", "Spark Basics", "NoSQL Databases", "Data Lakes"],
-    units: ["Big Data Concepts", "Hadoop Ecosystem", "MapReduce", "Spark", "NoSQL"],
+    important: ["Hadoop Architecture - HDFS, YARN", "MapReduce Programming", "Hive & Pig", "Spark Basics", "NoSQL Databases", "Data Warehousing"],
+    units: ["Big Data Concepts", "Hadoop Ecosystem", "MapReduce", "Spark", "NoSQL & Analytics"],
     tips: ["HDFS architecture", "MapReduce word count example", "Hive vs Pig comparison", "Spark RDD operations"],
     resources: "Textbook: Tom White Hadoop. YouTube: Edureka, Simplilearn"
 },
-
-// SEMESTER 6 - AI&DS
-cv_aids: {
-    name: "Computer Vision", code: "AD601PC", sem: 6, branch: "AIDS",
-    passTip: "Image processing basics and CNN architectures are key. Practice edge detection and filtering. Understand object detection.",
-    important: ["Image Filtering & Enhancement", "Edge Detection - Sobel, Canny", "Feature Extraction - SIFT, HOG", "CNN for Vision", "Object Detection - YOLO, R-CNN", "Image Segmentation"],
-    units: ["Image Fundamentals", "Image Enhancement", "Feature Extraction", "Deep Learning for CV", "Object Detection"],
-    tips: ["Convolution operations", "Edge detection algorithms", "CNN architectures comparison", "Transfer learning concepts"],
-    resources: "Textbook: Gonzalez Digital Image Processing. YouTube: Stanford CS231n, Sentdex"
+spm_aids: {
+    name: "Software Project Management", code: "SPC603AD", sem: 6, branch: "AIDS",
+    passTip: "SDLC models and project estimation are important. Understand risk management and quality assurance.",
+    important: ["SDLC Models - Waterfall, Agile, Scrum", "Project Estimation - COCOMO", "Risk Management", "Quality Assurance", "Configuration Management", "Project Scheduling - PERT, CPM"],
+    units: ["Software Process", "Project Planning", "Risk Management", "Quality Management", "Project Monitoring"],
+    tips: ["Compare SDLC models", "COCOMO calculations", "Risk identification techniques", "Gantt charts & PERT"],
+    resources: "Textbook: Pressman, Sommerville. YouTube: Gate Smashers, Knowledge Gate"
 },
-tic_aids: {
-    name: "Text & Information Classification", code: "AD602PC", sem: 6, branch: "AIDS",
-    passTip: "Text classification algorithms and information retrieval are important. Practice TF-IDF and document similarity.",
-    important: ["Text Classification", "TF-IDF", "Document Similarity", "Information Retrieval", "Topic Modeling - LDA", "Text Clustering"],
-    units: ["Text Representation", "Classification Algorithms", "Information Retrieval", "Topic Modeling", "Evaluation Metrics"],
-    tips: ["TF-IDF calculations", "Cosine similarity", "Precision-recall tradeoff", "LDA concepts"],
-    resources: "Textbook: Manning IR Book. YouTube: NPTEL, Stanford IR"
+cns_aids: {
+    name: "Cryptography & Network Security", code: "SPE514AD", sem: 6, branch: "AIDS",
+    passTip: "Encryption algorithms and protocols are key. Practice RSA and DES problems. Understand digital signatures.",
+    important: ["DES & AES", "RSA Algorithm", "Diffie-Hellman", "Digital Signatures", "Hash Functions - MD5, SHA", "SSL/TLS"],
+    units: ["Classical Encryption", "Block Ciphers", "Public Key Crypto", "Authentication", "Network Security"],
+    tips: ["RSA numerical practice", "DES rounds understanding", "Hash function properties", "Protocol comparisons"],
+    resources: "Textbook: Stallings, Forouzan. YouTube: Gate Smashers, Neso Academy"
 },
-rla_aids: {
-    name: "Reinforcement Learning", code: "AD603PE", sem: 6, branch: "AIDS",
-    passTip: "Understand MDP and Q-learning well. Practice value iteration problems. Know policy vs value methods.",
-    important: ["Markov Decision Process", "Bellman Equation", "Q-Learning", "Policy Gradient", "Deep Q-Network", "Actor-Critic Methods"],
-    units: ["RL Fundamentals", "MDP", "Value-based Methods", "Policy-based Methods", "Deep RL"],
-    tips: ["Bellman equation derivation", "Q-table updates", "Exploration vs exploitation", "DQN architecture"],
-    resources: "Textbook: Sutton & Barto. YouTube: David Silver RL, DeepMind"
+ds_aids: {
+    name: "Distributed Systems", code: "SPE515AD", sem: 6, branch: "AIDS",
+    passTip: "Understand distributed architectures and synchronization. Focus on consistency models and fault tolerance.",
+    important: ["Distributed Architectures", "Inter-process Communication", "Synchronization & Mutual Exclusion", "Consistency & Replication", "Fault Tolerance", "Distributed File Systems"],
+    units: ["Introduction & Architectures", "Communication", "Naming & Synchronization", "Consistency", "Fault Tolerance"],
+    tips: ["Clock synchronization algorithms", "Election algorithms", "Two-phase commit", "CAP theorem"],
+    resources: "Textbook: Tanenbaum Distributed Systems. YouTube: NPTEL, MIT OCW"
 },
 
 // Closing brace

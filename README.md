@@ -3,7 +3,7 @@
 A web app to help B.Tech engineering students pass their supplementary exams - focused on **Osmania University affiliated colleges**.
 
 ## 🌐 Live Demo
-[Open App](https://karthikeyapodicheti.github.io/suppapp/)
+[Open App](https://karthikeyapodicheti.github.io/suppapp/) | [Mirror](http://indusdesign.me/suppapp/)
 
 ## ✨ Features
 - Semester-wise subject selection (1-8 semesters)
